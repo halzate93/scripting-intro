@@ -4,7 +4,7 @@ namespace Phys
 {
 	[RequireComponent (typeof (Character2DController))]
 	[RequireComponent (typeof (Animator))]
-	public class Player : MonoBehaviour 
+	public class CustomMovementPlayer : MonoBehaviour 
 	{
 		[SerializeField]
 		private float jumpSpeed;
