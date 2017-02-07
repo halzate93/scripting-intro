@@ -42,7 +42,7 @@ namespace Phys
         {
             if (controller.isGrounded)
             {
-                if (Input.GetButtonDown("Jump"))
+                if (Input.GetKeyDown (KeyCode.Space))
                     currentVerticalSpeed = jumpSpeed;
                 else
                     currentVerticalSpeed = 0;
