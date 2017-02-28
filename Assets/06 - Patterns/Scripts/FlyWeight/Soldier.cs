@@ -8,6 +8,14 @@ namespace Patterns
 		public int attack;
 		public int defense;
 
+		[SerializeField]
+		private SoldierMind mind;
+
+		public void OnTurn ()
+		{
+			mind.UpdateSoldier (this);
+		}
+
 		public void Attack ()
 		{
 			Debug.Log ("Attack");	
