@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Intro
+namespace UnitySamples.Intro
 {
     public class ButtonsAndAxesTrigger : MonoBehaviour
     {
